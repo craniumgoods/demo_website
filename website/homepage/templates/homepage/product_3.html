@@ -1,15 +1,17 @@
+{% load static %}
+
 <html>
     <head>
-        <link rel="stylesheet" href="product.css">
+        <link rel="stylesheet" href="{% static 'product.css' %}">
     </head>
     <body>
 
-        <a href="Cranium.html"><img src="cran_logo.png" width="150px" height="150px" class="icon">
+        <a href="/"><img src="{% static 'cran_logo.png' %}" width="150px" height="150px" class="icon">
         </a>
         <div class="topnav" id="myTopnav">
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About</a>
-        <a href="Cranium.html" >Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about">About</a>
+        <a href="/" >Home</a>
         </div>
         <hr>
         <br>
@@ -17,7 +19,7 @@
  
             <div class="left-column">
 
-              <img src="TP.jpeg" alt="Product" class="product_img">
+              <img src="{% static 'TP.jpeg' %}" alt="Product" class="product_img">
 
             </div>
 
@@ -32,17 +34,9 @@
                 <br>
                 <h2>€75</h2>
         
-               <a href="Cranium.html"><button>Add to cart</button></a><
+               <a href="/"><button>Add to cart</button></a>
                 
               </div>
-        
-           
-             
-            
-               
-                
-              
-            
           </main>
     </body>
 </html>
