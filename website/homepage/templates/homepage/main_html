@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+
+<div class="main">
+
+    <img src="cran_logo.png" width="150px" height="150px" class="icon">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <div class="topnav" id="myTopnav">
+    <div style="background-color: black;">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#home" >Home</a>
+    </a>
+    </div> 
+    </div>
+    <hr>
+    <br>
+
+        <div class="logo">
+            <img src="cran_logo.png" width="200px" height="200px" >
+        </div>
+    
+
+
+    <h2>
+        Our Best Products 
+    </h2>
+
+
+    <div class="row">
+      <div class="column">
+        <div class="content">
+
+          <img src="Alexa.jpeg" alt="Alexa" style="width:100%">
+          <h3>AMAZON Echo Dot (3rd Gen) Smart Speaker with Alexa - Charcoal</h3>
+          <p>Our most popular Echo is now even better. With a new speaker and design, 
+              Echo Dot is a voice-controlled smart speaker with Alexa that's perfect for any room. 
+              Just ask for music, news, information and more. You can also call almost anyone, and 
+              control compatible smart home devices with your voice.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="TP.jpeg" alt="Tp" style="width:100%">
+          <h3>TP-LINK Tapo C200 Full HD 1080p WiFi Security Camera
+        </h3>
+          <p>Keep watch over what's going on in your home with the TP-Link Tapo C200 Full HD 1080p WiFi Security Camera. 
+              This camera gives you peace of mind when you're away from home with a Full 
+              HD stream straight to your smartphone or tablet.</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="smart_watch.jpeg" alt="Smart Watch" style="width:100%">
+          <h3>SAMSUNG Galaxy Watch5 BT with Bixby & Google Assistant - Graphite, 44 mm</h3>
+          <p>Put your wellbeing first with the Samsung Galaxy Watch5. It keeps an eye on your health by monitoring important metrics, 
+              like body composition, heart rate, blood pressure and more. And it uses all that data to coach you on your workouts, so you can ace that 
+              10K. 
+            </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Smart_light.jpeg" alt="Smart Light" style="width:100%">
+          <h3>PHILIPS HUE White & Colour 
+              Ambiance Starter Kit with Twin Pack LED Smart Bulb & Bridge - B22</h3>
+          <p>This Philips Hue Starter Kit contains everything you need to add smart lighting to your home. 
+              Choose from 16 million colours to create atmospheric lighting for every occasion.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </body>
+</html>
